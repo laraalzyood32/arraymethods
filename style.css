@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: aqua;
+
+}
+.color{
+    margin-top: 300px;
+    text-align: center;
+
+}
+.color button{
+    background: none;
+    outline: none;
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+    font-size: 20px;
+}
+#color1{
+    display: block;
+    color: beige;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 20px;
+}
+.clock{
+    color: rgb(70, 194, 21);
+    background-color: rgb(186, 204, 28);
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top:  50px;
+    padding-top: 15px;
+    font-size: 35px;
+    transition: 0.7  ease;
+}
+.clock:hover{
+ 
+    transform: scale(1.1);
+    color: salmon;
+    border: none;
+    
+}
+.sidenav{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    background-color: rgb(238, 63, 63);
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a{
+    padding: 8px  8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+
+
+}
+.sidenav  a:hover{
+    color: snow;
+
+}
+.sidenav .navnav{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+}
+#main{
+    transition: 0.5s;
+    padding: 16px;
+}
+.small{
+    bottom: 0;
+    transition: 0.5s;
+
+}
+.div2  .bottom{
+    position: absolute;
+    top: 0;
+    bottom: 25px;
+    font-size: 25px;
+    margin-bottom: 50px;
+    
+}
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color:#212121;
+}
+.dark{
+background-color: black;
+}
+
+.about{
+   width: 120px;
+   height: 50px;
+   border: none;
+   background-color: chartreuse;
+   color: red;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 70px;
+
+}
+.about:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.container{
+    position: relative;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0%  auto;
+}
+.add{
+    width: 100%;
+    display: flex;
+    padding: 15px  0;
+}
+.add > input[type="text"]{
+
+    width: 90%;
+    color: black;
+    border:none;
+    border-bottom: 2px solid  gray;
+    background: none;
+    padding: none;
+    font-size: 20px;
+    outline: none;
+}
+
+.add button{
+    margin: 0  10px;
+    background: black;
+    color: blanchedalmond;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+
+ol{
+    list-style: none;
+}
+ol li {
+    width: 100%;
+    padding:20px;
+    margin: 5px  0;
+    background-color: rgb(235, 64, 64);
+    font-size: 20px;
+    counter-increment: my-counter;
+    text-align: center;
+
+}
+ol.completed  li{
+    background: rgb(154, 248, 116);
+    text-align: center;
+    
+}
+ol li::before{
+    content: counter(my-counter);
+    background: blue;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 3rem;
+    text-align: center;
+    color: #fff;
+    margin-right: 0.5rem;
+    padding-bottom:  13px;
+      
+}
+#demo1{
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(233, 92, 92);
+
+}
+#demo2{
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(233, 92, 92);
+
+}
+#demo{
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(233, 92, 92);
+
+}
