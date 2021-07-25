@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+</head>
+<body>
+    <li  class="nav-item">
+    <button  class="dark" href="#">
+        <img src="/img/png-transparent-computer-icons-crescent-cdr-text-monochrome-thumbnail.png"  id="icon" alt=""  style="width: 50px;">
+    </button>
+       
+    
+  <p id="demo1"></p>  
+  <p  id="demo2"></p> 
+  <p id="demo"></p>
+ 
+  <form action="#">
+    <input  type="button"  value="change"  onclick="changeclick()" style="background-color: rgb(233, 92, 92);margin-left: 60px;  width: 100px;height: 40px;" >
+
+  </form>
+  <br> <br> <br>
+
+  <div  class="container">
+      <div  class="add">
+          <input type="text"  placeholder="Add a Task">
+          <button>ADD</button>
+      </div>
+      <ol  class="notcompleted">
+      <h2>Not completed</h2>
+
+      <li> Task
+          <button> <i  class="fa  fa-check"></i></button>
+          <button> <i  class="fa  fa-trash"></i></button>
+
+      </li>
+
+    </ol>
+    <ol  class="completed">
+        <h2>Completed</h2>
+
+        <li> Task
+            <button> <i  class="fa  fa-trash"></i> </button>
+
+        </li>
+
+    </ol>
+
+  </div>
+
+  <div  class="color">
+      <span  id=color1></span>
+      <button  onclick="getNewColor()">get new color</button>
+
+  </div>
+
+  
+
+ 
+<div  id="myclock"  class="clock"  onload="showtime()">finaltime</div>
+
+<div  id="sidebar"  class="sidenav">
+    <a href="#"  class="navnav"  onclick="closenav()" > &#9747</a>
+    <h1  style="color: white;text-align: center;" id="h1"> lara alzyood</h1>
+    <h1  style="color: white; font-size: 25px;text-align: center;" id="h1"> computer engineer</h1>
+    <img src="/img/Screenshot_20210713-150754 - Shortcut.lnk"  alt="">
+    
+    <button   id="button"  class="about" onclick="aboutme()" >more details</button>
+    <p id="me" style="color: white;"></p>
+    
+    
+</div>  
+    <div  id="details"  class="div2">
+        <a href="#"><img src="/img/Screenshot_20210713-150754 - Shortcut.lnk " alt=""></a>
+   
+    
+    </div>
+       
+      
+    
+    
+   
+
+
+<div  id="main">
+   
+    <p>lara alzyood</p>
+    <span  style="font-size: 30px;cursor: pointer;"  onclick="opennav()"> &#9776  my cv</span>
+    <p>click to see more details</p>
+</div>
+
+
+
+
+
+
+    <script  src="/main.js"></script>
+</body>
+</html>
